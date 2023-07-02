@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/password-strength/static/css/main.58605ebc.css",
+    "main.js": "/password-strength/static/js/main.d98fd43c.js",
+    "index.html": "/password-strength/index.html",
+    "main.58605ebc.css.map": "/password-strength/static/css/main.58605ebc.css.map",
+    "main.d98fd43c.js.map": "/password-strength/static/js/main.d98fd43c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58605ebc.css",
+    "static/js/main.d98fd43c.js"
+  ]
+}
