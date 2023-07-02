@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  transform: translate(-50%, -50%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 300px;
+}
+
+.main-form__input {
+  width: 400px;
+  height: 30px;
+
+  font-size: x-large;
+
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.main-form__label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  gap: 3px;
+
+  font-size: large;
+}
+
+.main-form__checkbox {
+  transform: scale(1.5);
+}
+
+.indicator-list {
+  display: flex;
+  gap: 10px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.indicator-list > li:first-child div {
+  border-radius: 10px 0 0 10px;
+}
+
+.indicator-list > li:last-child div {
+  border-radius: 0 10px 10px 0;
+}
+
+.indicator {
+  width: 110px;
+  height: 10px;
+  background-color: gray;
+
+  transition: background-color 150ms linear;
 }
